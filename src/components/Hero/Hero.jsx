@@ -17,23 +17,20 @@ const Hero = () => {
           </p>
           <h1 className="mt-2 font-palanquin text-8xl max-sm:text-[72px] max-sm:leading-[82px] font-bold z-1 max-lg:z-0 leading-3 ">
             <span className=" xl:whitespace-nowrap relative z-10 pr-10 rounded-full text-5xl sm:text-6xl ">
-              {" "}
               To Enhance <br /> Knowledge{" "}
             </span>
             <br />
             <span className="text-coral-red text-6xl sm:text-7xl inline-block mt-3 pr-3 text-slate-600">
-              {" "}
               Have QuizzaHut
             </span>
           </h1>
-          <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm ">
+          <p className="font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-6 sm:max-w-sm ">
             Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             Consequatur praesentium, id quidem ipsum unde omnis obcaecati.
-            Repellendus tenetur cumque pariatur distinctio nostrum! Nihil ipsam
-            ipsum eius doloribus architecto, repellat nemo!
           </p>
-
-          {/* <Button label="Show now" iconURL={arrowRight} /> */}
+          <button className="bg-blue-500 p-4 text-lg text-white rounded-xl">
+            Learn More...
+          </button>
         </div>
 
         <div className=" bg-slate-300 relative flex-1 flex justify-center items-center max-xl:py-5 bg-primary bg-hero bg-center bg-cover mb-6">
