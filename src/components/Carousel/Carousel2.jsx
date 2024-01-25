@@ -5,9 +5,10 @@ import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 
 import "./style.css";
+import ProfileCard from "../profileCard/ProfileCard";
 
 function Carousel({ data, loading, endpoint, title }) {
-  // console.log(data);
+  console.log(data);
   const carouselContainer = useRef();
 
   const navigation = (direction) => {
@@ -51,17 +52,13 @@ function Carousel({ data, loading, endpoint, title }) {
             ref={carouselContainer}
           >
             {data?.map((details) => {
+              console.log(details);
               return (
                 <div
-                  key={details.img}
-                  className="w-[270px] h-[100px] shrink-0 border-none max-md:w-[270px] max-md:h-[100px] bg-red-200 rounded-2xl"
+                  key={details}
+                  className="w-[450px]  shrink-0 border-none max-md:w-[300px]  bg-red-200 rounded-2xl"
                 >
-                  <div>
-                    <img
-                      src={details.img}
-                      className="rounded-2xl w-[270px] h-[100px]   max-md:w-[270px] max-md:h-[100px]"
-                    />
-                  </div>
+                  <ProfileCard />
                 </div>
               );
             })}

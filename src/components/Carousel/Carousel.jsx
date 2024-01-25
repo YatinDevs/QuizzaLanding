@@ -7,7 +7,7 @@ import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import "./style.css";
 
 function Carousel({ data, loading, endpoint, title }) {
-  console.log(data);
+  // console.log(data);
   const carouselContainer = useRef();
 
   const navigation = (direction) => {
@@ -28,7 +28,7 @@ function Carousel({ data, loading, endpoint, title }) {
     let count = 0;
     count = count + 1;
     return (
-      <div className="w-[300px] h-[250px] shrink-0 border-none max-md:w-[270px] max-md:h-[180px] bg-white rounded-2xl">
+      <div className="w-[300px] h-[300px] shrink-0 border-none max-md:w-[270px] max-md:h-[250px] bg-white rounded-2xl">
         {count}
       </div>
     );
@@ -53,20 +53,20 @@ function Carousel({ data, loading, endpoint, title }) {
             {data?.map((details) => {
               return (
                 <div
-                  className="w-[350px] shadow-lg  h-[320px] shrink-0 border-none max-md:w-[270px] max-md:h-[280px] bg-white-200 rounded-2xl"
+                  className="w-[350px] shadow-lg  h-[320px] shrink-0 border-none max-md:w-[270px] max-md:h-[350px] bg-white-200 rounded-2xl"
                   key={details}
                 >
                   <div>
                     <img
                       src={details}
-                      className="rounded-2xl  w-[350px] h-[200px]  max-md:w-[270px] max-md:h-[140px]"
+                      className="rounded-2xl  w-[350px] h-[200px]  max-md:w-[270px] max-md:h-[180px]"
                     />
                   </div>
                   <div>
                     <h3 className="text-center font-semibold p-2  rounded-xl">
                       CDAC CCAT MOCK
                     </h3>
-                    <p className="">
+                    <p className="p-2 text-center">
                       Your Information or description goes here.
                     </p>
                     <div className="flex justify-center">
