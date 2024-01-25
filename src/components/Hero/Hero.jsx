@@ -9,7 +9,7 @@ const Hero = () => {
     <ContentWrapper>
       <section
         id="home"
-        className="w-full flex xl:flex-row flex-col justify-center min-h-[100px] gap-5 max-container px-8"
+        className="w-full py-16 flex xl:flex-row flex-col justify-center min-h-[100px] gap-5 max-container px-12"
       >
         <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-8 ">
           <p className="text-xl font-montserrat text-coral-red">

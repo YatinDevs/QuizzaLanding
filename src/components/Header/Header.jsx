@@ -7,9 +7,9 @@ import Tests from "./Tests/Tests";
 
 function Header() {
   return (
-    <header className="w-full h-16 bg-white shadow-sm">
-      <div className="w-full max-w-[1440px] mx-auto h-full flex items-center px-[50px] justify-between max-sm:px-2">
-        <div className="flex items-center h-full">
+    <header className="fixed w-full h-16 bg-white shadow-sm z-50">
+      <div className="w-full max-w-[1440px] mx-auto h-full flex items-center z-100 px-[50px] justify-between max-sm:px-2">
+        <div className="flex items-center h-full z-100">
           <Logo />
           <Navbar />
         </div>
