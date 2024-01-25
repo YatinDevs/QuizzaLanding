@@ -7,7 +7,7 @@ import { IoMdArrowBack, IoMdArrowForward } from "react-icons/io";
 import "./style.css";
 
 function Carousel({ data, loading, endpoint, title }) {
-  // console.log(data);
+  console.log(data);
   const carouselContainer = useRef();
 
   const navigation = (direction) => {
@@ -54,11 +54,11 @@ function Carousel({ data, loading, endpoint, title }) {
               return (
                 <div
                   className="w-[300px] h-[250px] shrink-0 border-none max-md:w-[270px] max-md:h-[180px] bg-red-200 rounded-2xl"
-                  key={details.img}
+                  key={details}
                 >
                   <div>
                     <img
-                      src={details.img}
+                      src={details}
                       className="rounded-2xl w-[300px] h-[250px]  max-md:w-[270px] max-md:h-[180px]"
                     />
                   </div>

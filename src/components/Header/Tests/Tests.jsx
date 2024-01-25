@@ -9,7 +9,7 @@ function Trips() {
       to={"/mysupport/trips"}
       className="flex items-center shrink-0 max-sm:flex-col max-sm:justify-center "
     >
-      <PiExam className="logo-trip logos-nav w-9 h-9 mr-1" />
+      <PiExam className="logo-trip logos-nav w-5 h-5 mr-1" />
 
       <div className="text mr-5 max-sm:mr-0">
         <div className="font-semibold text-xs text-orange-600 ">
