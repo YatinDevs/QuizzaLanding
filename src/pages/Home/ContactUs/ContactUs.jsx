@@ -39,9 +39,7 @@ function ContactUs() {
               >
                 <div className="border-neutral-300   shadow-md mb-4 border  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
                   <FiCopy className="" />
-                  <span className="text-neutral-700 dark:text-white  font-semibold">
-                    Copy Details
-                  </span>
+                  <span className="text-neutral-700  font-semibold ">Copy</span>
                 </div>
               </Link>
             </div>
