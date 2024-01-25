@@ -53,13 +53,13 @@ function Carousel({ data, loading, endpoint, title }) {
             {data?.map((details) => {
               return (
                 <div
-                  className="w-[350px] shadow-lg  h-[320px] shrink-0 border-none max-md:w-[270px] max-md:h-[350px] bg-white-200 rounded-2xl"
+                  className="w-[350px] shadow-lg  h-[400px] shrink-0 border-none max-md:w-[270px] max-md:h-[350px] bg-white-200 rounded-2xl"
                   key={details}
                 >
                   <div>
                     <img
                       src={details}
-                      className="rounded-2xl  w-[350px] h-[200px]  max-md:w-[270px] max-md:h-[180px]"
+                      className="rounded-2xl  w-[350px] h-[250px]  max-md:w-[270px] max-md:h-[180px]"
                     />
                   </div>
                   <div>

@@ -4,6 +4,7 @@ import HeroBanner from "./HeroBanner/HeroBanner";
 import Hero from "../../components/Hero/Hero";
 import FeaturedDevs from "./FeaturedDevs/FeaturedDevs";
 import ProfileCard from "../../components/profileCard/ProfileCard";
+import ContactUs from "./ContactUs/ContactUs";
 
 function Home() {
   return (
@@ -11,6 +12,7 @@ function Home() {
       <Hero />
       <FeaturedTests />
       <FeaturedDevs />
+      <ContactUs />
     </div>
   );
 }

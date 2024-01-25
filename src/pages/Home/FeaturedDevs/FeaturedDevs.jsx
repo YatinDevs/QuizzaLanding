@@ -14,7 +14,7 @@ function FeaturedDevs() {
   ]);
 
   return (
-    <div className="bg-white-50 py-2 shadow-2xl ">
+    <div className="bg-white-50 py-2  ">
       <div className="bg-white py-2">
         <h1 className="text-center text-xl font-semibold my-2 ">
           Developers Contributed
