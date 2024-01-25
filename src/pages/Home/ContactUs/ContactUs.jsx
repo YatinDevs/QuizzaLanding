@@ -18,8 +18,8 @@ function ContactUs() {
               </h1>
             </div>
 
-            <div className="bg-[#F6F8FA] dark:bg-[#115e3b] h-6 w-6 lg:w-fit lg:px-3 rounded-full flex items-center justify-center gap-x-2">
-              <div className="w-2 h-2 rounded-full animate-ping dark:animate-none bg-[#28C780]" />
+            <div className="bg-[#F6F8FA]  h-6 w-6 lg:w-fit lg:px-3 rounded-full flex items-center justify-center gap-x-2">
+              <div className="w-2 h-2 rounded-full animate-ping  bg-[#28C780]" />
               <p className="text-[#2b9364] hidden lg:flex text-xs font-semibold uppercase ">
                 Available for work
               </p>
