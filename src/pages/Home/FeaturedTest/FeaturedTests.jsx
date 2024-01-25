@@ -2,7 +2,18 @@ import React, { useEffect, useState } from "react";
 import Carousel from "../../../components/Carousel/Carousel";
 import axios from "axios";
 import { Test1, Test2, Test3, Test4, Test5 } from "../../../assets/index";
-const testimages = [Test1, Test2, Test3, Test4, Test5];
+const testimages = [
+  Test1,
+  Test2,
+  Test3,
+  Test4,
+  Test5,
+  Test1,
+  Test2,
+  Test3,
+  Test4,
+  Test5,
+];
 function FeaturedTests() {
   const [data, setData] = useState([]);
 

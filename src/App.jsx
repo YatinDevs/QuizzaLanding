@@ -7,19 +7,18 @@ import {
 } from "react-router-dom";
 import Layout from "./layout/Layout";
 import Flights from "./pages/Flights/Flights";
-import Hotels from "./pages/Hotels/Hotels";
-import Buses from "./pages/Buses/Buses";
-import Trains from "./pages/Trains/Trains";
 import Home from "./pages/Home/Home";
+import PageNotFound from "./pages/404/PageNotFound";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<Layout />}>
       <Route index element={<Home />} />
-      <Route path="/flights" element={<Home />} />
-      <Route path="/trains" element={<Trains />} />
-      <Route path="/buses" element={<Buses />} />
-      <Route path="/hotels" element={<Hotels />} />
+      <Route path="/home" element={<Home />} />
+      <Route path="/telegram" element={<PageNotFound />} />
+      <Route path="/aboutus" element={<PageNotFound />} />
+      <Route path="/github" element={<PageNotFound />} />
+      <Route path="*" element={<PageNotFound />} />
     </Route>
   )
 );

@@ -6,7 +6,7 @@ import { PiExam } from "react-icons/pi";
 function Trips() {
   return (
     <NavLink
-      to={"/mysupport/trips"}
+      to={"/mytests/tests"}
       className="flex items-center shrink-0 max-sm:flex-col max-sm:justify-center "
     >
       <PiExam className="logo-trip logos-nav w-5 h-5 mr-1" />
