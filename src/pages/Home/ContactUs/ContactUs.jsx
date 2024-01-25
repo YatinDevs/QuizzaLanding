@@ -13,7 +13,7 @@ function ContactUs() {
           <div className="flex justify-between  w-full">
             <div className="flex items-center gap-x-2 font-InterRe">
               <div className="w-[6px] h-[6px] rounded-full  bg-[#6b6b6b]" />
-              <h1 className="text-neutral-700 dark:text-[#C0C0C0] max-md:text-xl text-xl font-InterRe font-bold">
+              <h1 className="text-neutral-700  max-md:text-xl text-xl font-InterRe font-bold">
                 Contact US
               </h1>
             </div>
@@ -37,7 +37,7 @@ function ContactUs() {
                   "https://drive.google.com/file/d/1vu_2Cb3BbndXsRdJXiI6s5imm9XxADo8/view"
                 }
               >
-                <div className="border-neutral-300 dark:border-neutral-700/50  shadow-md mb-4 border  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
+                <div className="border-neutral-300   shadow-md mb-4 border  w-fit h-8 px-2 rounded-md flex items-center gap-x-2 ">
                   <FiCopy className="" />
                   <span className="text-neutral-700 dark:text-white  font-semibold">
                     Copy Details
@@ -49,7 +49,7 @@ function ContactUs() {
             <div>
               <div className="w-full flex gap-x-4">
                 <input
-                  className="w-1/2 p-3 outline-none border-none rounded-lg dark:bg-[#2C2C2C]/40 
+                  className="w-1/2 p-3 outline-none border-none rounded-lg 
                   bg-[#F1F4F8]
                   placeholder-zinc-600"
                   type="text"
@@ -58,7 +58,7 @@ function ContactUs() {
                 <input
                   className="w-1/2 p-3
                   
-                  outline-none border-none rounded-lg dark:bg-[#2C2C2C]/40 bg-[#F1F4F8] placeholder-zinc-600"
+                  outline-none border-none rounded-lg bg-[#F1F4F8] placeholder-zinc-600"
                   type="email"
                   placeholder="Email"
                 />
@@ -71,13 +71,13 @@ function ContactUs() {
                   className="w-full p-3 
                   bg-[#F1F4F8]
                   
-                  outline-none border-none  dark:bg-[#2C2C2C]/40 placeholder-zinc-600 rounded-lg"
+                  outline-none border-none   placeholder-zinc-600 rounded-lg"
                   rows="6"
                   placeholder="Message"
                 ></textarea>
               </div>
 
-              <button className="w-full p-3 rounded-lg text-white dark:bg-neutral-700 bg-blue-500 dark:hover:bg-neutral-800 transition-all ease-in-out duration-500 mt-4 font-InterBo">
+              <button className="w-full p-3 rounded-lg text-white  bg-blue-500  transition-all ease-in-out duration-500 mt-4 font-InterBo">
                 Submit Inquiry
               </button>
             </div>
